@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\matkul jurusan rpl telu\\Semester 4\\praktikum kpl\\tp modul7\\tpmodul7_kelompok_2\\tmodul7_kelompok_2.csproj": {}
+    "/Users/rakha/Developer/NetBeansProjects/tpmodul7_kelompok_2/tmodul7_kelompok_2.csproj": {}
   },
   "projects": {
-    "D:\\matkul jurusan rpl telu\\Semester 4\\praktikum kpl\\tp modul7\\tpmodul7_kelompok_2\\tmodul7_kelompok_2.csproj": {
+    "/Users/rakha/Developer/NetBeansProjects/tpmodul7_kelompok_2/tmodul7_kelompok_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\matkul jurusan rpl telu\\Semester 4\\praktikum kpl\\tp modul7\\tpmodul7_kelompok_2\\tmodul7_kelompok_2.csproj",
+        "projectUniqueName": "/Users/rakha/Developer/NetBeansProjects/tpmodul7_kelompok_2/tmodul7_kelompok_2.csproj",
         "projectName": "tmodul7_kelompok_2",
-        "projectPath": "D:\\matkul jurusan rpl telu\\Semester 4\\praktikum kpl\\tp modul7\\tpmodul7_kelompok_2\\tmodul7_kelompok_2.csproj",
-        "packagesPath": "C:\\Users\\A C E R\\.nuget\\packages\\",
-        "outputPath": "D:\\matkul jurusan rpl telu\\Semester 4\\praktikum kpl\\tp modul7\\tpmodul7_kelompok_2\\obj\\",
+        "projectPath": "/Users/rakha/Developer/NetBeansProjects/tpmodul7_kelompok_2/tmodul7_kelompok_2.csproj",
+        "packagesPath": "/Users/rakha/.nuget/packages/",
+        "outputPath": "/Users/rakha/Developer/NetBeansProjects/tpmodul7_kelompok_2/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\A C E R\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rakha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -38,16 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -64,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
         }
       }
     }

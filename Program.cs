@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.Json;
+using dataMahasiswa;
 
 internal class Program
 {
@@ -17,20 +18,10 @@ internal class Program
         Console.WriteLine("nim " + mhsdata.nim);
         Console.WriteLine("fakultas " + mhsdata.fakultas);
     }
-}
 
-public class DataMahasiswa1302220072
-{
-    public class Nama
+    public static void ReadJSON()
     {
-        public string depan { get; set; }
-        public string belakang { get; set; }
-    }
-
-    public class DataMhs
-    {
-        public Nama nama { get; set; }
-        public int nim { get; set; }
-        public string fakultas { get; set; }
+        string filepath2 = Path.Combine("tp7_2_1302220072.json");
+        string jsonFile2 = File.ReadAllText(filepath2);
     }
 }

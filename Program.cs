@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text.Json;
-
+using dataMahasiswa;
 internal class Program
 {
     private static void Main(string[] args)
@@ -16,21 +16,5 @@ internal class Program
         Console.WriteLine("Nama " + mhsdata.nama.depan + " " + mhsdata.nama.belakang);
         Console.WriteLine("nim " + mhsdata.nim);
         Console.WriteLine("fakultas " + mhsdata.fakultas);
-    }
-}
-
-public class DataMahasiswa1302220072
-{
-    public class Nama
-    {
-        public string depan { get; set; }
-        public string belakang { get; set; }
-    }
-
-    public class DataMhs
-    {
-        public Nama nama { get; set; }
-        public int nim { get; set; }
-        public string fakultas { get; set; }
     }
 }

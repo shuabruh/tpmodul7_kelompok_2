@@ -2,7 +2,7 @@
 
 namespace DataMahasiswa
 {
-    public class DataMahasiswa1302223076
+    public class DataMahasiswa1302223118
     {
         public class nama
         {
